@@ -5,8 +5,8 @@ public class Doctor extends Person{
     public String specialization;
     public ArrayList<Integer> assignedPatients;
 
-    public Doctor(int doctorId, String name, String specialization) {
-        super(name);
+    public Doctor(int doctorId, String name, String phone, String specialization) {
+        super(name, phone);
         this.doctorId = doctorId;
         this.name = name;
         this.specialization = specialization;
