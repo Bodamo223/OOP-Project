@@ -12,4 +12,9 @@ public class MedicalRecord {
         this.doctorName = doctorName;
         this.prescription = prescription;
     }
+
+    @Override
+    public String toString() {
+        return "Date: " + date + " | Doctor: " + doctorName + " | Diagnosis: " + diagnosis + " | Prescription: " + prescription;
+    }
 }

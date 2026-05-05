@@ -13,4 +13,9 @@ public class Patient extends Person{
         this.bloodType = bloodType;
         this.healthNotes = healthNotes;
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + patientId + " | Name: " + name + " | Age: " + age + " | Blood: " + bloodType;
+    }
 }

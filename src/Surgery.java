@@ -14,4 +14,9 @@ public class Surgery {
         this.scheduledDate = scheduledDate;
         this.status = "Scheduled";
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + surgeryId + " | Patient: " + patientName + " | Type: " + surgeryType + " | Date: " + scheduledDate + " | Status: " + status;
+    }
 }

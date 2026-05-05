@@ -10,4 +10,9 @@ public class Room {
         this.status = "Available";
         this.assignedPatientId = -1;
     }
+
+    @Override
+    public String toString() {
+        return "Room: " + roomNumber + " | Type: " + type + " | Status: " + status;
+    }
 }

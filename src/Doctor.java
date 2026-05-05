@@ -12,4 +12,9 @@ public class Doctor extends Person{
         this.specialization = specialization;
         this.assignedPatients = new ArrayList<>();
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + doctorId + " | Name: " + name + " | Specialization: " + specialization;
+    }
 }
